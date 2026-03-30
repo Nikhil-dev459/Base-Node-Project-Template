@@ -33,6 +33,7 @@ Let’s take a look inside the `src` folder:
        PORT=3000
     ```
  - Inside the `src/config` folder create a file named `config.json` and write the following code:
+    ```
     {
     "development": {
         "username": "root",
@@ -56,6 +57,6 @@ Let’s take a look inside the `src` folder:
         "dialect": "mysql"
     }
     }
-    
+    ```
  - If you're setting up your development environment, then write the username of your DB, password of your DB, and in dialect mention whatever DB you are using (e.g., MySQL, MariaDB, etc.).
  - If you're setting up test or production environment, make sure you also replace the host with the hosted DB URL.
